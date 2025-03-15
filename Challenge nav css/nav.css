@@ -1,0 +1,88 @@
+body {
+    background-color: #1f1e1e;
+    color:#fff;
+    font-weight: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6rem;
+    padding: 80px;
+    align-content: center;
+    justify-content: center;
+    display:grid;
+}
+
+a {
+    color:#fff;
+}
+
+a:hover{
+    color: rgb(107, 134, 224);
+}
+
+.container {
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    overflow: hidden;
+
+    background-image: url('../Challenge nav css/img/panther.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-section {
+    width: 100%;
+    height: 20%;
+}
+
+.top-section  img {
+    align-self: center;
+    width: 120px;
+    height: 120px;
+    border: 20px #ff4500;
+    border-radius: 100%;
+    border:solid #ff4500;
+}
+
+.bottom-section {
+    width: 100%;
+    height: 80%;
+    align-content: flex-end;
+}
+
+button {
+    background:grey;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover{
+    background: #e973481c;
+}
+
+.Block{
+    float: left;
+    width: 33.3%;
+    padding: 2px;
+    box-sizing:border-box;
+}
+
+.Block ul {
+    padding: 2px;
+    list-style: none;
+}
+
+.main-header {
+    align-self: center;
+}
+
+.footer{
+    text-align: center;
+    color:rgb(107, 134, 224);
+}
