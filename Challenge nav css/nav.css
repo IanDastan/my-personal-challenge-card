@@ -1,3 +1,18 @@
+@media (max-width:600px) {
+    .container {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .block {
+        flex-direction: column;
+    }
+
+    .block ul {
+        flex-direction: column;
+    }
+}
+
 body {
     background-color: #1f1e1e;
     color:#fff;
@@ -17,7 +32,11 @@ a {
 }
 
 a:hover{
-    color: rgb(107, 134, 224);
+    color: orangered;
+}
+
+a[target="_blank"]:hover{
+    color:rgb(107, 134, 224);
 }
 
 .container {
@@ -25,6 +44,7 @@ a:hover{
     padding: 24px;
     text-align: center;
     border-radius: 10px;
+    width: 100%;
     max-width: 400px;
     display: flex;
     flex-direction: column;
@@ -86,4 +106,8 @@ button:hover{
 .footer{
     text-align: center;
     color:rgb(107, 134, 224);
+}
+
+.footer a:hover{
+    color:orangered;
 }
